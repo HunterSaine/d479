@@ -33,6 +33,27 @@
             </nav>
         </div>
     </header>
+    <div class="contentbody">
+        <div class="formcontainer">
+            <div class="imgcontainer">
+                <img src="tropical.jpeg" alt="Tropical photo" style="width: 700px;">
+            </div>
+            
+            <form action="submitform" method="POST">
+                <h2>Contact Us</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 400px;">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 400px;">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required style="width: 400px; height: 200px;"></textarea>
+
+                <input type="submit" value="Submit" style="width: 150px;">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
