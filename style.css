@@ -5,6 +5,7 @@ header {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
+    height: 100px;
 }
 
 /* Style for the header text */
@@ -35,6 +36,10 @@ a {
     color: #333;
     text-decoration: none;
 
+}
+a:hover {
+    color: #333;
+    text-decoration: underline;
 }
 .socialnav_container {
     display: flex;
