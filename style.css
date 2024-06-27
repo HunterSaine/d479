@@ -2,13 +2,13 @@
 header {
     display: flex;
     flex-direction: row;
-    background-color: #f2f2f221;
+    background-color: #0f067243;
     padding: 20px;
     text-align: center;
     height: 100px;
 }
 
-/* Style for the header text */
+
 h1 {
     color: #333;
     font-size: 34px;
@@ -80,7 +80,9 @@ button {
     align-items: left;
     margin-left: auto;
     text-align: left;
+    background-color: #f2f2f2;
     width: 100px;
+    height: 100px
 }
 .contentbody{
     padding: 25px;
@@ -100,6 +102,7 @@ button {
     align-items: center;
     margin: 0 auto;
     width: 200px;
+    background-color: #f2f2f2;
 }
 .footer_container {
     display: flex;
@@ -171,7 +174,8 @@ height: 300px;
 .imgcard {
     box-shadow: 0 8px 10px rgb(0, 0, 0);
     border-radius: 8px;
-    
+    background-color: #f2f2f2;
+    height: 300px;
     padding: 8px;
     
     margin: 20px;
@@ -188,7 +192,7 @@ body {
     font-size: larger;
     margin: 0;
     padding: 0;
-    background-image: url("beachbackground.avif")
+    background-color: azure;
 }
 .faqbody {
     display: flex;
@@ -230,4 +234,11 @@ h3 {
     margin: 0;
     text-align: center;
     margin: 15px;
+}
+.imgcontainer {
+
+    width: 400px;
+    height: 400px;
+    background-color: #f2f2f2;
+
 }
